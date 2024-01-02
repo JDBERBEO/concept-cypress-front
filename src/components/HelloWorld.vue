@@ -9,7 +9,6 @@
           </template>
         </aq-card-header>
         <aq-card-content>
-          {{ currentWish }}
           <aq-text-editor
             v-model="currentWish"
             id="modalTextEditor"

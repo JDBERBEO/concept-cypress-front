@@ -2,7 +2,7 @@
   <div id="app">
     <nav>
       <router-link to="/">Agregar deseo</router-link> |
-      <router-link to="/about">Ver deseos</router-link>
+      <router-link to="/about" data-testid="navWishes">Ver deseos</router-link>
     </nav>
     <router-view />
   </div>
